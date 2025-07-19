@@ -348,3 +348,13 @@
 .PhoneInputInput::placeholder {
   color: #1a1d21;
 }
+
+.owner {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Segoe Print;
+  color: #24ae7c;
+  cursor: pointer;
+  
+
+}
