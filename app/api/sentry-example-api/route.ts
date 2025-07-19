@@ -1,14 +1,19 @@
 import { NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";
-class SentryExampleAPIError extends Error {
+
+class CustomAPIError extends Error {
   constructor(message: string | undefined) {
     super(message);
-    this.name = "SentryExampleAPIError";
+    this.name = "CustomAPIError";
   }
 }
-// A faulty API route to test Sentry's error monitoring
+
+// A faulty API route for testing error handling
 export function GET() {
-  throw new SentryExampleAPIError("This error is raised on the backend called by the example page.");
-  return NextResponse.json({ data: "Testing Sentry Error..." });
+  // Simulate an error (optional – remove if you want no error)
+  throw new CustomAPIError("This error is raised on the backend by the test API route.");
+
+  // Unreachable return, included for reference
+  // return NextResponse.json({ data: "Test API working..." });
 }
