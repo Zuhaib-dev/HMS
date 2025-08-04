@@ -13,7 +13,7 @@ const fontSans = FontSans({
 
 // ✅ Replace this with your actual domain and OG image path (1200x630)
 const siteUrl = "https://hms-seven-green.vercel.app/";
-const ogImage = "https://preview.shfy.app/render?url=https%3A%2F%2Fhms-seven-green.vercel.app%2F";
+const ogImage = "https://private-user-images.githubusercontent.com/151519281/347042676-a7dd73b6-93de-484d-84e0-e7f4e299167b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQyODgwNjMsIm5iZiI6MTc1NDI4Nzc2MywicGF0aCI6Ii8xNTE1MTkyODEvMzQ3MDQyNjc2LWE3ZGQ3M2I2LTkzZGUtNDg0ZC04NGUwLWU3ZjRlMjk5MTY3Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgwNFQwNjA5MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOTlmYzFmZTViMTg4YWNhYmUxNzM4ZjkzZmU0NGZmNGIxMjg4NTUyYWNmZWM1ZDBlMmQyNmRlZWY3NTY2YWQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Go9_2frrA-yxitZWfUcVEaHemMYR2q56J1Y7WDBO8-o";
 
 export const metadata: Metadata = {
   title: "CarePulse",
