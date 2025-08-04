@@ -13,7 +13,7 @@ const fontSans = FontSans({
 
 // ✅ Replace this with your actual domain and OG image path (1200x630)
 const siteUrl = "https://hms-seven-green.vercel.app/";
-const ogImage = "https://camo.githubusercontent.com/845c7868c12c63cac5599ff8341cb9ba090e889bbb89eaa05e93d331eac01899/68747470733a2f2f696d672e6672656570696b2e636f6d2f7072656d69756d2d766563746f722f6f6e6c696e652d646f63746f722d686f73706974616c2d736572766963652d696c6c757374726174696f6e5f3130383036312d3435322e6a70673f773d31303630";
+const ogImage = "https://preview.shfy.app/render?url=https%3A%2F%2Fhms-seven-green.vercel.app%2F";
 
 export const metadata: Metadata = {
   title: "CarePulse",
