@@ -24,6 +24,11 @@ export const metadata: Metadata = {
     shortcut: "/assets/icons/logo-icon.svg",
     apple: "/assets/icons/logo-icon.svg",
   },
+  // Google verficaition
+  /* ✅ Google Search Console Verification */
+  verification: {
+    google: "terZRkP5xAisMxUTVWZ_rW6MXSuOeuAFITryD0CBDxA", 
+  },
 
   // ✅ Open Graph Meta Tags
   openGraph: {
