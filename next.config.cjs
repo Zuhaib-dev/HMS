@@ -1,4 +1,3 @@
-// next.config.cjs
 const withPWA = require("next-pwa");
 const runtimeCaching = require("next-pwa/cache.js");
 
