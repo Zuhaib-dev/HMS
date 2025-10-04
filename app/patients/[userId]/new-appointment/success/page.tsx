@@ -73,7 +73,7 @@ const RequestSuccess = async ({
           </Link>
         </Button>
 
-        <p className="copyright">© 2025 CarePluse  by <span className="owner"> <a  target="blank" href="https://zuhaib-portfolio-tau.vercel.app/">Zuhaib</a></span> </p>
+        <p className="copyright">© 2025 CarePluse  by <span className="owner"> <a  target="blank" href="https://www.zuhaibrashid.com/">Zuhaib</a></span> </p>
       </div>
     </div>
   );

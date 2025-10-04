@@ -24,7 +24,7 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
 
           <RegisterForm user={user} />
 
-          <p className="copyright py-12">© 2025 CarePluse by <span className="owner"> <a  target="blank" href="https://zuhaib-portfolio-tau.vercel.app/">Zuhaib</a></span> </p>
+          <p className="copyright py-12">© 2025 CarePluse by <span className="owner"> <a  target="blank" href="https://www.zuhaibrashid.com/">Zuhaib</a></span> </p>
         </div>
       </section>
 
