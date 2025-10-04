@@ -1,5 +1,6 @@
-import { withPWA } from "next-pwa";
-import runtimeCaching from "next-pwa/cache.js";
+// next.config.cjs
+const withPWA = require("next-pwa");
+const runtimeCaching = require("next-pwa/cache.js");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -15,7 +16,7 @@ const nextConfig = {
   },
 };
 
-export default withPWA({
+module.exports = withPWA({
   ...nextConfig,
   pwa: {
     dest: "public",
