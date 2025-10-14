@@ -7,7 +7,6 @@ import { ThemeProvider } from "next-themes";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
-
 const fontSans = FontSans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -88,7 +87,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#0f172a" />
         <meta name="robots" content="index, follow" />
 
-        {/* JSON-LD Structured Data */}
+        {/* ✅ JSON-LD Structured Data */}
         <Script
           id="ld-json"
           type="application/ld+json"
@@ -116,7 +115,23 @@ export default function RootLayout({
             }),
           }}
         />
+
+        {/* ✅ Microsoft Clarity Analytics */}
+        <Script
+          id="microsoft-clarity"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "tq16bkuguy");
+            `,
+          }}
+        />
       </head>
+
       <body
         className={cn(
           "min-h-screen bg-dark-300 font-sans antialiased",
