@@ -130,7 +130,7 @@ Feel free to fork and customize it!
 
 > This project was developed by **Zuhaib Rashid** while learning the MERN Stack from **Sheryians Coding School**.
 
-📧 **Email:** xuvaxuva006@gmail.com  
+📧 **Email:** zuhaibrashid01@gmail.com  
 📞 **Phone:** 6006414088  
 📍 **Location:** Srinagar, Jammu and Kashmir  
 🔗 **GitHub:** [github.com/Zuhaib-dev](https://github.com/Zuhaib-dev/Projects.git)  
