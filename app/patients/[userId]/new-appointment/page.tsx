@@ -7,7 +7,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
   const patient = await getPatient(userId);
 
   return (
-    <div className="flex h-screen max-h-screen mx-auto max-w-[1500px]">
+    <main className="flex h-screen max-h-screen mx-auto max-w-[1500px]">
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
           <Image
@@ -35,7 +35,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
         alt="appointment"
         className="side-img max-w-[390px] bg-bottom"
       />
-    </div>
+    </main>
   );
 };
 
