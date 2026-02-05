@@ -1,0 +1,16 @@
+{
+  "name": "CarePulse",
+  "short_name": "CarePulse",
+  "description": "A healthcare patient management application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/assets/icons/logo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

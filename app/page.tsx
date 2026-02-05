@@ -8,7 +8,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
   const isAdmin = searchParams?.admin === "true";
 
   return (
-    <div className="flex h-screen max-h-screen">
+    <div className="flex h-screen max-h-screen mx-auto max-w-[1500px]">
       {isAdmin && <PasskeyModal />}
 
       <section className="remove-scrollbar container my-auto">
@@ -25,7 +25,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
 
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2025 CarePluse by <span className="owner"> <a  target="blank" href="https://www.zuhaibrashid.com/">Zuhaib</a></span>
+              © 2026 CarePluse by <span className="owner"> <a  target="blank" href="https://www.zuhaibrashid.com/">Zuhaib</a></span>
             </p>
             <Link href="/?admin=true" className="text-green-500">
               Admin

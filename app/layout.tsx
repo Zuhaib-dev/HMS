@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     default: "CarePulse - Healthcare Management System | Zuhaib Rashid",
     template: "%s | CarePulse",
   },
+  manifest: "/manifest.json",
   description:
     "CarePulse is a healthcare management web app built by Zuhaib Rashid using Next.js. Manage patients, appointments, and medical records efficiently for hospitals and clinics.",
   keywords:
